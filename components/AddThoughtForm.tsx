@@ -90,7 +90,7 @@ export default function AddThoughtForm({ currentUser }: AddThoughtFormProps) {
             type="submit"
             disabled={!text.trim() || isSubmitting}
             className={`w-full h-12 transition-all duration-300 ${
-              currentUser === 'Sacha'
+              currentUser === 'Desti'
                 ? 'bg-blue-400 hover:bg-blue-500'
                 : 'bg-pink-400 hover:bg-pink-500'
             } text-white border-0`}

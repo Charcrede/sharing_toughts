@@ -42,10 +42,10 @@ export default function ThoughtsPage({ initialUser, onLogout }: ThoughtsPageProp
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-3">
             <div className={`p-2 rounded-full ${
-              currentUser === 'Sacha' ? 'bg-blue-100' : 'bg-pink-100'
+              currentUser === 'Desti' ? 'bg-blue-100' : 'bg-pink-100'
             }`}>
               <Heart className={`w-6 h-6 ${
-                currentUser === 'Sacha' ? 'text-blue-600' : 'text-pink-600'
+                currentUser === 'Desti' ? 'text-blue-600' : 'text-pink-600'
               }`} />
             </div>
             <div>
